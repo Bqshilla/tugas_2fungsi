@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center><p>Belajar Javascript</p></center>
+    <script>
+      // fungsi penjumlahan
+      function tambah(a, b) {
+        var hasil = a + b;
+        return hasil;
+      }
+
+      // Memanggil fungsi tambah
+      alert("Hasil Penjumlahan: " + tambah(9, 6));
+
+      // fungsi pengurangan
+      function pengurangan(a, b) {
+        var hasil = a - b;
+        return hasil;
+      }
+
+      // Memanggil fungsi pengurangan
+      alert("Hasil Pengurangan: " + pengurangan(9, 8));
+
+      // fungsi perkslisn
+      function perkalian(a, b) {
+        var hasil = a * b;
+        return hasil;
+      }
+
+      // Memanggil fungsi perkalian
+      alert("Hasil Perkalian: " + perkalian(9, 9));
+
+      // fungsi sisa bagi
+      function sisaBagi(a, b) {
+        var hasil = a % b;
+        return hasil;
+      }
+
+      // Memanggil fungsi sisaBagi
+      alert("Hasil Sisa Bagi: " + sisaBagi(7, 3));
+
+      // Fungsi untuk menentukan genap atau ganjil
+      function cekGenapGanjil(angka) {
+        if (angka % 2 === 0) {
+          alert(angka + " adalah angka Genap");
+        } else {
+          alert(angka + " adalah angka Ganjil");
+        }
+      }
+
+      // Memanggil fungsi cekGenapGanjil
+      cekGenapGanjil(11);
+    </script>
+  </body>
+</html>
